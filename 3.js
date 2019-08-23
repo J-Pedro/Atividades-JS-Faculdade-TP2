@@ -11,5 +11,5 @@ for (i = 0; i < 20; i++) {
   if (obj.status == "APROVADO") { contadorAprovado++ }
 }
 
-console.log("numero de aprovados", contadorAprovado)
-console.log("numero de reprovados", 20 - contadorAprovado)
+console.log("numero de aprovados", contadorAprovado, "("+((contadorAprovado)/20)*100+"%)")
+console.log("numero de reprovados", 20 - contadorAprovado, "("+((20-contadorAprovado)/20)*100+"%)")
